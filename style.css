@@ -18,7 +18,7 @@ a{
 #signUp{
     
     background-color:darkgrey;
-    padding: 1em 5em;
+    padding: 1.2em 5em;
     margin: -1%;
     margin-top: 5%;
     display: inline-block;
@@ -29,35 +29,32 @@ a{
 
 #logIn{
     background-color:darkgray;
-    padding: 1em 5em;
+    padding: 1.2em 5em;
     display: inline-block;
    
 
 }
 
-#signUp:hover{
+#signUp:hover , #logIn:hover{
     background-color: rgb(86, 207, 149);
 }
 
-#logIn:hover{
-    background-color: rgb(86, 207, 149);
-}
 
-p{
+h1{
     font-size: 1.5em;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     color:white;
 }
 
-#firstNameInput , #lastNameInput {
+#firstNameInput, #lastNameInput {
 
     color:white;
     border-style: solid;
     border-color:darkgray;
     background-color: darkslategrey;
-    padding: .5em;
-    
+    padding: .7em;
+
 }
 
 #mailAdressInput{
@@ -66,6 +63,29 @@ p{
     border-color: darkgray;
     background-color: darkslategrey;
     margin-top: 1.5em; 
-    padding: .5em 9em;
+    padding: .7em 9em;
     justify-content: flex-start;
 }
+
+#passwordInput{
+    color:white;
+    border-style: solid;
+    border-color: darkgray;
+    background-color: darkslategrey;
+    margin-top: 1.5em; 
+    padding: .7em 9em;
+    text-align: left;
+    
+}
+
+button{
+    color:white;
+    background-color:rgb(86, 207, 149) ;
+    margin-top: 7%;
+    padding: 1em 9em;
+    font-size: large;
+}
+
+input::placeholder {
+  }
+  
