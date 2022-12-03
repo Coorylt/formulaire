@@ -62,8 +62,9 @@ h1{
     border-style: solid;
     border-color: darkgray;
     background-color: darkslategrey;
+    width: 32em;
     margin-top: 1.5em; 
-    padding: .7em 9em;
+    padding: .7em ;
     justify-content: flex-start;
 }
 
@@ -72,8 +73,9 @@ h1{
     border-style: solid;
     border-color: darkgray;
     background-color: darkslategrey;
+    width: 32em;
     margin-top: 1.5em; 
-    padding: .7em 9em;
+    padding: .7em;
     text-align: left;
     
 }
@@ -85,7 +87,3 @@ button{
     padding: 1em 9em;
     font-size: large;
 }
-
-input::placeholder {
-  }
-  
