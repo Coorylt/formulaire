@@ -1,13 +1,71 @@
+
 section{
+    font-family: Helvetica;
     width: 30em;
     height: 30em;
     background-color:darkslategrey;
+    margin:auto;
     text-align: center;
 }
 
 
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+#signUp{
+    
+    background-color:darkgrey;
+    padding: 1em 5em;
+    margin: -1%;
+    margin-top: 5%;
+    display: inline-block;
+    
+    
+}
+
+
+#logIn{
+    background-color:darkgray;
+    padding: 1em 5em;
+    display: inline-block;
+   
+
+}
+
+#signUp:hover{
+    background-color: rgb(86, 207, 149);
+}
+
+#logIn:hover{
+    background-color: rgb(86, 207, 149);
+}
 
 p{
-   
-    color:white
+    font-size: 1.5em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color:white;
+}
+
+#firstNameInput , #lastNameInput {
+
+    color:white;
+    border-style: solid;
+    border-color:darkgray;
+    background-color: darkslategrey;
+    padding: .5em;
+    
+}
+
+#mailAdressInput{
+    color:white;
+    border-style: solid;
+    border-color: darkgray;
+    background-color: darkslategrey;
+    margin-top: 1.5em; 
+    padding: .5em 9em;
+    justify-content: flex-start;
 }
