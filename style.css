@@ -29,7 +29,8 @@ a {
 
 #logIn {
     background-color: darkgray;
-    padding: 1.3em 5em;
+    padding: 1.3em;
+    width: 10.5em;
     display: inline-block;
 
 }
