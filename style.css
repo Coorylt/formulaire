@@ -89,3 +89,13 @@ button {
     padding: 1em 9.2em;
     font-size: large;
 }
+
+.login{
+    color: white;
+    background-color: rgb(86, 207, 149);
+    margin-top: 12%;
+    padding: 1em;
+    width: 25em;
+    font-size: large;
+}
+}
