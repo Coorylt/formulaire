@@ -1,0 +1,118 @@
+*{
+    font-family: Helvetica;
+    color:white;
+
+}
+
+header{
+    background-color: black;
+    width: 45em;
+    height: 12em;
+}
+
+h1{
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+p{
+    position: relative;
+    left:20em;
+    bottom: 6em;
+}
+
+.image{
+    background-color: black;
+}
+
+.Mr{
+    position: relative;
+    font-size: 1.3em;
+    bottom: 25em;
+    left: 4em;
+}
+
+.Mme{
+    position:relative;
+    font-size: 1.3em;
+    bottom: 26.2em;
+    left:8em;
+}
+
+#firstNameInput{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    position: relative;
+    padding: 1.5%;
+    bottom: 37.5em;
+    width: 20em;
+    height: 2em;
+    margin-left: 3em;
+}
+
+#lastNameInput{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    position: relative;
+    padding: 1.5%;
+    bottom: 37.5em;
+    width: 20em;
+    height: 2em;
+    margin-left: 1em;
+}
+
+#mailAdressInput{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    position: relative;
+    padding: 1.5%;
+    bottom: 35em;
+    width: 20em;
+    height: 2em;
+    margin-left: 3em;
+}
+
+#tel{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    position: relative;
+    padding: 1.5%;
+    bottom: 35em;
+    width: 20em;
+    height: 2em;
+    margin-left: 1em;
+}
+
+#passwordInput{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    position: relative;
+    padding: 1.5%;
+    bottom: 32.5em;
+    width: 20em;
+    height: 2em;
+    margin-left: 3em;
+}
+
+#pays{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    position: relative;
+
+    bottom: 38.5em;
+    width: 24em;
+    height: 5.9em;
+    margin-left: 28.3em;
+}
+
+button{
+    background-color:rgb(43, 43, 43);
+    border:solid black;
+    font-size: 2em;
+    position: relative;
+    bottom: 15em;
+    width: 19.2em;
+    height: 2.2em;
+    margin-left: 1.7em;
+}

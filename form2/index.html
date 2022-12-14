@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header>
+        <h1>INSCRIVEZ-<br>VOUS!</h1>
+        <p>Finalisez votre inscription afin de recevoir notre<br> newsletter et d'autres surprises !</p>
+    </header>
+
+    <section>
+        <img class="image" src="DEGRADÉ.png" alt="">
+        <form action="#" method="post">
+            <div class="Mr">
+                <input type="radio" id="mr" name="type" value="mr" checked>
+                <label for="mr">Mr.</label>
+            </div>
+
+            <div class="Mme">
+                <input type="radio" id="mme" name="type" value="mme checked">
+                <label for="mme">Mme</label>
+            </div>
+            <div>
+                <input type="text" name="firstNameInput" id="firstNameInput" placeholder="Prénom :">
+                <input type="text" name="lastNameInput" id="lastNameInput" placeholder="Nom :">
+            </div>
+
+            <div>
+                <input type="email" name="mailAdressInput" id="mailAdressInput" placeholder="Adresse mail :">
+                <input type="tel" name="tel" id="tel" placeholder="Numéro de téléphone :">
+            </div>
+
+            <div>
+                <input type="password" name="passwordInput" id="passwordInput" placeholder="Mot de passe :">
+            </div>
+
+            <div class="choix">
+                <label for="pays"></label>
+                <select name="pays" id="pays">
+                    <option value="">Choix du Pays</option>
+                    <option value="France">France</option>
+                    <option value="Allemagne">Allemagne</option>
+                    <option value="Suisse">Suisse</option>
+                </select>
+            </div>
+
+            <button type="submit">S'inscrire</button>
+
+        </form>
+    </section>
+</body>
+
+</html>
